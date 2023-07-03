@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"/>
+        <link rel="stylesheet" href="assest/style.css"/>
+        <title>Android Quiz</title> 
+    </head>
+    <body>
+
+        <div class="name-quiz">
+         <div class="content_quiz">
+            <h3> Android Quiz</h3>
+            <hr>
+            <p>Its an educational game that contains 10 entertaining educational questions, where each question has 4 options, 3 wrong and correct answers, a question with a specific point</p>
+            <h5 >How to game:</h5>
+            <ol>
+                <li>Read Description Game</li>
+                <li>Enter playerName</li>
+                <li>Start Game to Play and Win Score</li>
+            </ol>
+
+
+            <hr>
+
+
+            <div class="form_student">
+           
+                <label >StudentName:</label>
+                <input id="name-st" type="text" placeholder="Name"/>
+                 <p class="p-error"></p>
+               
+              
+              </div>
+
+
+            <div class="start-screen">
+                <button id="start-button"  >Start</button>
+                <button  id="heigh_score" >Leaderboard</button>
+
+             </div>
+
+  
+
+         </div>
+
+        </div>
+
+
+      <!--==============================Quiz Design===========================================-->
+
+
+    
+     
+      <div class="quiz-box">
+        <h2 class="que_text"></h2>
+       <!--Question text-->
+        <div class="options">
+         <!--Option-->
+        </div>
+        <div class="quiz-footer">
+           <div class="footer-left">
+              <span class="count_que">1</span>/  <span class="total_que">10</span> Questions
+           </div>
+
+           <div class="footer-center">
+            <span class="score_que"></span>/ <span class="total_que">10</span> Score
+           
+         </div>
+
+
+
+           <div class="footer-right">
+              <div class="next-btn">Next</div>
+           </div>
+     
+         
+     </div>
+     
+     </div>
+
+
+    
+     <!--==================================ResultBox======================================================== -->
+     
+     
+     
+     <div class="result-box">
+
+       <section>
+        <div class="jumbotron">
+            <h1 class="display-4">High Scores</h1>
+            <hr>
+            <ol id="HSlist">
+
+            </ol>
+           
+        </div>
+    </section>
+
+
+
+     
+   
+
+
+    
+
+        </div>
+
+
+     
+
+
+
+
+
+     <script src="assest/quiz.js"></script>
+     <script src="assest/quetsion.js"></script>
+     <script src="assest/high.js"></script>
+    
+  
+
+    </body>
+</html>
