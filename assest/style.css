@@ -1,0 +1,231 @@
+body{
+    background: url('../image/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+
+.name-quiz{
+    width: 100%;
+    max-width: 550px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 30px;
+   
+}
+
+.content-quiz{
+    width: 300px;
+}
+
+
+label{
+  margin: 10px;
+}
+
+
+input{
+  margin: 10px;
+  padding: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+
+ h3{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-style: bold;
+ 
+
+  }
+  
+  hr{
+      border-top: 2px solid #029049;
+      margin: 10px;
+     
+  }
+  
+  p{
+      font-size: 20px;
+      text-align: start;
+      font-style: normal; 
+      margin: 10px; 
+      
+  }
+  
+  h5{
+      margin: 20px;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      background-color: #40a773;
+     }
+  
+     ol li{
+      margin: 10px;
+     }
+
+
+/********************************QuizPage*******************************/
+
+.quiz-box{
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  display: none;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px #777;
+  padding: 50px;
+  width: 100%;
+  max-width: 600px;
+  background: rgba(0,0,0,0.5);
+}
+
+
+.quiz-box h2{
+  font-size: 25px;
+}
+
+
+.quiz-box .option{
+  font-size: 20px;
+  border: 2px solid #fff;
+  margin: 20px 0;
+  padding: 12px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+
+
+
+
+.quiz-footer{
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px dashed #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.count_que,.total_que ,.score_que{
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer-left{
+  font-size: 18px;
+}
+.next-btn{
+  font-size: 18px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s;
+}
+
+.next-btn:hover{
+  background: #fff;
+  color: #11a94b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================ButtonStart/heighScor=====================================*/
+ .start-screen{
+    margin: 20px;
+   
+  
+ } 
+ 
+ button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+  #start-button , #heigh_score
+{
+  font-size: 15px;
+  padding: 25x;
+  margin: 20px;
+  padding: 0.5em 1.8em;
+  border: black solid 2px;
+  background-color: #59e69f;
+}
+
+
+/*================================Input Validate========================================*/
+
+.p-error{
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+
+/*==========================================HieghScore===========================================*/
+.result-box{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  display: none;
+  box-shadow: 0 0 10px #777;
+  width: 100%;
+  max-width: 450px;
+  background: rgba(0,0,0,0.5);
+}
+
+
+
+#highScoresList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.result-box h1{
+  color: #fdfffe;
+  margin: 15px;
+}
+
+ul{
+  margin: 10px;
+}
+
+
+
+
+
+
+
